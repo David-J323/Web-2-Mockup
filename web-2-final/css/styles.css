@@ -1,0 +1,221 @@
+body {
+	background-color: white;
+	height: 830px;
+}
+
+@font-face {
+	font-family: 'Kalinga';
+	src: url("../fonts/Kalinga.ttf") format("truetype");
+	src: url("../fonts/Kalingab.ttf") format("truetype");
+}
+
+header h1 {
+	position: absolute;
+	color: rgb(70, 70, 70);
+	font-family: "Kalinga";
+	font-weight: bold;
+	font-size: 35px;
+	left: 40px;
+	top: 10px;
+	
+}
+
+header h2 {
+	position: absolute;
+	color: rgb(70, 70, 70);
+	font-family: "Kalinga";
+	font-size: 50px;
+	left: 370px;
+	top: 3px;
+}
+
+header p {
+    position: absolute;
+	color: rgb(70, 70, 70);
+	font-family: "Kalinga";
+	font-weight: 'regular';
+	font-size: 25px;
+	left: 40px;
+	top: 55px;
+}
+
+#classLine {
+	position: absolute;
+	background-color: rgb(174, 174, 174);
+	left: 30px;
+	top: 77px;
+	width: 220px;
+	height: 3px;
+}
+
+#selection {
+	width: 500px;
+	height: 60px;
+}
+
+#selection ul {
+	position: relative;
+	color: rgb(70, 70, 70);
+	font-family: "Kalinga";
+	font-size: 23px;
+	float: left;
+	margin: 5px;
+	bottom: 690px;
+	height: 0px;
+	
+}
+
+#kinetic h1 {
+	position: relative;
+	color: rgb(70, 70, 70);
+	font-family: "Kalinga";
+	font-weight: 'regular';
+	font-size: 25px;
+	width: 50px;
+	left: 33px;
+	bottom: 700px;
+}
+
+#kineticLine {
+	position: absolute;
+	background-color: rgb(174, 174, 174);
+	left: 30px;
+	bottom: 490px;
+	width: 430px;
+	height: 3px;
+}
+
+#kineticSelected {
+   position: relative;
+   background-color: rgb(70, 70, 70);
+   bottom: 700px;
+   left: 50px;
+   width: 100px;
+   height: 100px;
+}
+
+
+#kineticInv {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+}
+
+#kineticInv ul {
+   position: relative;
+   background-color: rgb(70, 70, 70);
+   float: right;
+   margin: 5px;
+   bottom: 820px;
+   left: 230px;
+   width: 10px;
+   height: 50px;
+}
+
+#energy h1 {
+	position: relative;
+	color: rgb(70, 70, 70);
+	font-family: "Kalinga";
+	font-weight: 'regular';
+	font-size: 25px;
+	width: 50px;
+	left: 33px;
+	bottom: 690px;
+}
+
+#energyLine {
+	position: absolute;
+	background-color: rgb(174, 174, 174);
+	left: 30px;
+	bottom: 300px;
+	width: 430px;
+	height: 3px;
+}
+
+#energySelected {
+	position: relative;
+    background-color: rgb(70, 70, 70);
+    bottom: 690px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#energyInv {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+}
+
+#energyInv ul {
+	position: relative;
+    background-color: rgb(70, 70, 70);
+    float: right;
+    margin: 5px;
+    bottom: 810px;
+    left: 230px;
+    width: 10px;
+    height: 50px;
+}
+
+#power h1 {
+	position: relative;
+	color: rgb(70, 70, 70);
+	font-family: "Kalinga";
+	font-weight: 'regular';
+	font-size: 25px;
+	width: 50px;
+	left: 33px;
+	bottom: 680px;
+}
+
+#powerLine {
+	position: absolute;
+	background-color: rgb(174, 174, 174);
+	left: 30px;
+	bottom: 110px;
+	width: 430px;
+	height: 3px;
+}
+
+#powerSelected {
+	position: relative;
+    background-color: rgb(70, 70, 70);
+    bottom: 680px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#powerInv {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+}
+
+#powerInv ul {
+	position: relative;
+    background-color: rgb(70, 70, 70);
+    float: right;
+    margin: 5px;
+    bottom: 800px;
+    left: 230px;
+    width: 10px;
+    height: 50px;
+}
+
+footer {
+	position: relative;
+	background-color: rgb(17, 17, 17);
+	width: 480px;
+	height: 70px;
+	bottom: 610px;
+}
+
+footer img {
+	position: relative;
+	margin: 15px;
+	bottom: 10px;
+	left: 49px;
+}
+
